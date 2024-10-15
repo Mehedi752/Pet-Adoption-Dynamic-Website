@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Page</title>
+
+    <!-- Tailwind CSS & Daisy UI CDN. -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.11/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Add Lato Google Font. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Add Inter Google Font. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Add Font Awesome. -->
+    <script src="https://kit.fontawesome.com/ad7c647c34.js" crossorigin="anonymous"></script>
+
+    <style>
+        .lato-font {
+            font-family: "Lato", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        .inter-font {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container mx-auto mt-[100px] flex flex-col gap-10 px-[20px] lg:px-0 pb-[50px]">
+
+        <h3 class="text-[#051d40] text-[32px] lg:text-[40px] font-bold mb-6 text-center">Frequently Asked Questions</h3>
+        <div class="flex flex-col justify-between gap-6 lg:px-[100px]">
+
+            <div class="p-3 collapse collapse-plus bg-base-200 bg-[#A4DAC3]">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-bold">What should I consider before adopting a pet?
+                </div>
+                <div class="collapse-content">
+                    <p> Before adopting a pet, consider your lifestyle, living situation, and budget. Evaluate the
+                        amount
+                        of time you can dedicate to a pet for training, exercise, and companionship. Additionally,
+                        assess any allergies, compatibility of pets with children or other animals, and the long-term
+                        financial responsibility, including food, veterinary care, and supplies..
+                    </p>
+                </div>
+            </div>
+
+            <div class="p-2 pt-4 collapse collapse-plus bg-base-200 bg-[#E7C1D3]">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-bold">How do I choose the right pet for me?
+                </div>
+                <div class="collapse-content">
+                    <p> To choose the right pet, think about your activity level and home environment. Research
+                        different
+                        breeds or species to understand their needs, temperament, and energy levels. Visit shelters or
+                        rescue organizations to meet potential pets and talk to staff about their behavior and history.
+                        Consider fostering as a way to experience pet ownership before making a long-term commitment.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="p-2 pt-4 collapse collapse-plus bg-base-200 bg-[#EFDA6E]">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-bold">What is the adoption process like?
+                </div>
+                <div class="collapse-content">
+                    <p>The adoption process typically involves filling out an application, providing personal and
+                        household information, and possibly undergoing an interview with shelter staff. Some places may
+                        conduct a home visit to assess suitability. There may also be an adoption fee, which usually
+                        covers vaccinations, spaying/neutering, and microchipping. After approval, you can finalize the
+                        adoption and take your new pet home.
+                    </p>
+                </div>
+            </div>
+
+            <div class="p-2 pt-4 collapse collapse-plus bg-base-200 bg-[#77AAEA]">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-bold">What should I do after adopting a pet?
+                </div>
+                <div class="collapse-content">
+                    <p>After adopting a pet, give them time to adjust to their new environment. Create a safe space with
+                        essentials like food, water, and a comfortable bed. Schedule a visit to a veterinarian for a
+                        health check and vaccinations, and start establishing a routine for feeding, exercise, and
+                        training. Socialize your pet gradually, and consider enrolling in obedience or training classes
+                        to foster a strong bond and good behavior.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Add JavaScript File. -->
+    <script src="./js/faq.js"></script>
+
+</body>
+
+</html>
