@@ -3,14 +3,18 @@
 <p align="center">This project is Pet Adoption website designed to provide a smooth and user-friendly experience for users looking to adopt his/her favourite pet. The site uses HTML, CSS, JavaScript with DOM manipulation and JasvaScript API to dynamically update the page based on user input."</p>
 
 <p align="center">
-<a href="">📱Live Visit This Project</a>
+<a href="pet-adoption-services.surge.sh">📱Live Visit This Project</a>
 </p> 
 
 <h2 id="layout">🎨Features</h2>
 <ul>
    <li> <b> Interactive Loading Spinner:</b>  Display a loading spinner for at least 3 seconds when fetching data from the API. </li>
 
+   <li> <b> Dynamic All Buttons Functionality for Pets: </b>  When any button is clicked, then every button works dynamically. </li>
+
    <li> <b> Dynamic Sorting Functionality for Pets: </b>  When the "Sort by Price" button is clicked, sort pets in descending order based on price. </li>
+
+   <li> <b> Dynamic Searching Functionality for Pets: </b>  You can find any category pets by searching. </li>
 
    <li> <b> Interactive Adopt Button Behaviour: </b>   When the "Adopt" button is clicked, show a countdown (3, 2, 1) and then change the button text to "Adopted."</li>
 
