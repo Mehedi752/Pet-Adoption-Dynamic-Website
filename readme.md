@@ -3,7 +3,7 @@
 <p align="center">This project is Pet Adoption website designed to provide a smooth and user-friendly experience for users looking to adopt his/her favourite pet. The site uses HTML, CSS, JavaScript with DOM manipulation and JasvaScript API to dynamically update the page based on user input."</p>
 
 <p align="center">
-<a href="pet-adoption-services.surge.sh">📱Live Visit This Project</a>
+<a href="https://pet-adoption-dynamic-website.netlify.app/">📱Live Visit This Project</a>
 </p> 
 
 <h2 id="layout">🎨Features</h2>
